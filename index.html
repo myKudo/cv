@@ -102,22 +102,23 @@
             </div>
             <!-- Clients Logos -->
             <div class="clients-section">
-                <p class="clients-title">Ils m'ont fait confiance</p>
+                <p class="clients-title" data-i18n="hero.clients">Ils m'ont fait confiance</p>
                 <div class="clients-logos">
-                    <div class="client-logo" title="Up Coop">
-                        <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5f/Groupe-up-logo.svg/200px-Groupe-up-logo.svg.png" alt="Up Coop">
+                    <div class="client-logo-text" title="Up Coop">
+                        <span class="client-name">Up Coop</span>
                     </div>
-                    <div class="client-logo" title="Microsoft">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/200px-Microsoft_logo.svg.png" alt="Microsoft">
+                    <div class="client-logo-text" title="Microsoft">
+                        <i class="fab fa-microsoft"></i>
+                        <span class="client-name">Microsoft</span>
                     </div>
-                    <div class="client-logo" title="Adecco / YOSS">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Adecco_logo.svg/200px-Adecco_logo.svg.png" alt="Adecco">
+                    <div class="client-logo-text" title="Adecco / YOSS">
+                        <span class="client-name">Adecco</span>
                     </div>
-                    <div class="client-logo" title="Deloitte">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/200px-Deloitte.svg.png" alt="Deloitte">
+                    <div class="client-logo-text" title="Deloitte">
+                        <span class="client-name">Deloitte</span>
                     </div>
-                    <div class="client-logo" title="L'Oréal">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/L%27Or%C3%A9al_logo.svg/200px-L%27Or%C3%A9al_logo.svg.png" alt="L'Oréal">
+                    <div class="client-logo-text" title="L'Oréal">
+                        <span class="client-name">L'Oreal</span>
                     </div>
                 </div>
             </div>
@@ -444,7 +445,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2022 - 2025</div>
                             <div class="timeline-company">
-                                <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5f/Groupe-up-logo.svg/100px-Groupe-up-logo.svg.png" alt="Up Coop" class="company-logo">
+                                <div class="company-icon"><i class="fas fa-building"></i></div>
                                 <span>UP COOP</span>
                             </div>
                         </div>
@@ -487,7 +488,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2019 - 2021</div>
                             <div class="timeline-company">
-                                <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5f/Groupe-up-logo.svg/100px-Groupe-up-logo.svg.png" alt="Up Coop" class="company-logo">
+                                <div class="company-icon"><i class="fas fa-building"></i></div>
                                 <span>UP COOP</span>
                             </div>
                         </div>
@@ -536,7 +537,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2018 - 2019</div>
                             <div class="timeline-company">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/100px-Microsoft_logo.svg.png" alt="Microsoft" class="company-logo">
+                                <div class="company-icon microsoft"><i class="fab fa-microsoft"></i></div>
                                 <span>YOSS / MICROSOFT</span>
                             </div>
                         </div>
@@ -579,7 +580,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2016 - 2017</div>
                             <div class="timeline-company">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Deloitte.svg/100px-Deloitte.svg.png" alt="Deloitte" class="company-logo">
+                                <div class="company-icon"><i class="fas fa-chart-line"></i></div>
                                 <span>DELOITTE</span>
                             </div>
                         </div>
@@ -612,7 +613,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2016</div>
                             <div class="timeline-company">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/L%27Or%C3%A9al_logo.svg/100px-L%27Or%C3%A9al_logo.svg.png" alt="L'Oréal" class="company-logo">
+                                <div class="company-icon"><i class="fas fa-gem"></i></div>
                                 <span>L'ORÉAL</span>
                             </div>
                         </div>
@@ -643,6 +644,7 @@
                         <div class="timeline-header">
                             <div class="timeline-date">2013 - 2016</div>
                             <div class="timeline-company">
+                                <div class="company-icon"><i class="fas fa-university"></i></div>
                                 <span>AGB</span>
                             </div>
                         </div>
@@ -708,55 +710,53 @@
                 </p>
             </div>
 
-            <div class="contact-wrapper">
-                <div class="contact-cards">
-                    <a href="mailto:djilali.sahraoui@mykudo.fr" class="contact-card">
-                        <i class="fas fa-envelope"></i>
-                        <h4>Email</h4>
-                        <p>djilali.sahraoui@mykudo.fr</p>
-                    </a>
-                    <a href="tel:+33781647814" class="contact-card">
-                        <i class="fas fa-phone"></i>
-                        <h4 data-i18n="contact.phone">Téléphone</h4>
-                        <p>+33 781 64 78 14</p>
-                    </a>
-                    <a href="https://mykudo.fr" target="_blank" class="contact-card">
-                        <i class="fas fa-globe"></i>
-                        <h4 data-i18n="contact.website">Site Web</h4>
-                        <p>mykudo.fr</p>
-                    </a>
-                    <a href="https://linkedin.com/in/djilalisahraoui" target="_blank" class="contact-card">
-                        <i class="fab fa-linkedin-in"></i>
-                        <h4>LinkedIn</h4>
-                        <p>Djilali SAHRAOUI</p>
-                    </a>
-                </div>
-
-                <form class="contact-form" id="contact-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name" data-i18n="contact.form.name_label">Nom complet</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" data-i18n="contact.form.subject">Sujet</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">
-                        <span data-i18n="contact.form.send">Envoyer le message</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                </form>
+            <div class="contact-cards">
+                <a href="mailto:djilali.sahraoui@mykudo.fr" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>djilali.sahraoui@mykudo.fr</p>
+                </a>
+                <a href="tel:+33781647814" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h4 data-i18n="contact.phone">Téléphone</h4>
+                    <p>+33 781 64 78 14</p>
+                </a>
+                <a href="https://mykudo.fr" target="_blank" class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h4 data-i18n="contact.website">Site Web</h4>
+                    <p>mykudo.fr</p>
+                </a>
+                <a href="https://linkedin.com/in/djilalisahraoui" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h4>LinkedIn</h4>
+                    <p>Djilali SAHRAOUI</p>
+                </a>
             </div>
+
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact.form.name_label">Nom complet</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject" data-i18n="contact.form.subject">Sujet</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">
+                    <span data-i18n="contact.form.send">Envoyer le message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
         </div>
     </section>
 
