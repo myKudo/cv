@@ -502,11 +502,11 @@ img {
 }
 
 .client-logo {
-    height: 40px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.5;
+    opacity: 0.6;
     filter: grayscale(100%);
     transition: var(--transition-base);
 }
@@ -519,7 +519,7 @@ img {
 .client-logo img {
     height: 100%;
     width: auto;
-    max-width: 140px;
+    max-width: 120px;
     object-fit: contain;
 }
 

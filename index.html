@@ -105,19 +105,25 @@
                 <p class="clients-title" data-i18n="hero.clients">Ils m'ont fait confiance</p>
                 <div class="clients-logos">
                     <div class="client-logo" title="Up Coop">
-                        <img src="https://cdn.brandfetch.io/idHxPFb2T-/w/400/h/400/theme/dark/icon.png?c=1bfwsmEH20zzEfSNTed" alt="Up Coop">
+                        <img src="img/logos/upcoop.png" alt="Up Coop">
                     </div>
                     <div class="client-logo" title="Microsoft">
-                        <img src="https://cdn.brandfetch.io/idchmboHEZ/theme/dark/logo.svg?c=1bfwsmEH20zzEfSNTed" alt="Microsoft">
+                        <img src="img/logos/microsoft.svg" alt="Microsoft">
                     </div>
                     <div class="client-logo" title="Adecco">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Adecco_logo.svg" alt="Adecco">
+                        <img src="img/logos/adecco.png" alt="Adecco">
                     </div>
                     <div class="client-logo" title="Deloitte">
-                        <img src="https://cdn.brandfetch.io/idT7NC9Pmf/theme/dark/logo.svg?c=1bfwsmEH20zzEfSNTed" alt="Deloitte">
+                        <img src="img/logos/delloite.png" alt="Deloitte">
                     </div>
                     <div class="client-logo" title="L'Oréal">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Or%C3%A9al_logo.svg" alt="L'Oréal">
+                        <img src="img/logos/loreal.svg" alt="L'Oréal">
+                    </div>
+                    <div class="client-logo" title="Foncia">
+                        <img src="img/logos/foncia.png" alt="Foncia">
+                    </div>
+                    <div class="client-logo" title="Vinci">
+                        <img src="img/logos/vinci.png" alt="Vinci">
                     </div>
                 </div>
             </div>
@@ -454,11 +460,14 @@
                             en charge de l'accompagnement de l'ensemble des Tech Leads sur leurs projets.
                         </p>
                         <ul class="timeline-list">
-                            <li data-i18n="exp.upcoop1.item1">Accompagnement des Tech Leads sur les choix d'architecture</li>
+                            <li data-i18n="exp.upcoop1.item1">Accompagnement des Tech Leads sur les choix d'architecture, bonnes pratiques et delivery</li>
                             <li data-i18n="exp.upcoop1.item2">Mise en place des standards techniques : sécurité, qualité, monitoring</li>
-                            <li data-i18n="exp.upcoop1.item4">Pilotage transverse de la stratégie FinOps</li>
-                            <li data-i18n="exp.upcoop1.item5">Data & AI: approche Data Mesh, migration Unity Catalog</li>
-                            <li data-i18n="exp.upcoop1.item6">DevSecOps à l'échelle de l'organisation</li>
+                            <li data-i18n="exp.upcoop1.item3">Animation des revues d'architecture et participation aux cadrages projets</li>
+                            <li data-i18n="exp.upcoop1.item4">Pilotage transverse de la stratégie FinOps et optimisation des coûts cloud</li>
+                            <li data-i18n="exp.upcoop1.item5">Veille & animation technique : animation de la communauté des Tech Leads, organisation de sessions de formation</li>
+                            <li data-i18n="exp.upcoop1.item6">Documentation & référentiels : création et maintien de la documentation d'architecture</li>
+                            <li data-i18n="exp.upcoop1.item7">Data & AI : accompagnement Data Mesh, mise en place de la data platform, migration Unity Catalog, POC IA métiers</li>
+                            <li data-i18n="exp.upcoop1.item8">DevSecOps : adoption de pratiques DevSecOps à l'échelle, intégration sécurité dans les workflows CI/CD</li>
                         </ul>
                         <div class="timeline-tech">
                             <span>Azure</span>
@@ -497,10 +506,13 @@
                             et des équipes back-office de Up Coop.
                         </p>
                         <ul class="timeline-list">
-                            <li data-i18n="exp.upcoop2.item1">Architecture microservices (CQRS : SQL + Cosmos DB)</li>
-                            <li data-i18n="exp.upcoop2.item2">Pipelines ETL sur Databricks</li>
-                            <li data-i18n="exp.upcoop2.item3">Infrastructure sécurisée Azure</li>
-                            <li data-i18n="exp.upcoop2.item4">Référent FinOps</li>
+                            <li data-i18n="exp.upcoop2.item1">Architecture microservices orientée domaine (pattern CQRS : SQL en écriture, Cosmos DB en lecture)</li>
+                            <li data-i18n="exp.upcoop2.item2">Pipelines ETL distribués sur Databricks pour l'intégration de données partenaires à forte volumétrie</li>
+                            <li data-i18n="exp.upcoop2.item3">Infrastructure sécurisée et résiliente : Azure Firewall, Private Endpoint, VNet, Application Gateway, Front Door</li>
+                            <li data-i18n="exp.upcoop2.item4">Exposition des APIs via API Management, sécurisation avec Azure AD B2C et Managed Identity</li>
+                            <li data-i18n="exp.upcoop2.item5">Mise en œuvre d'une stratégie de sauvegarde et de résilience (multi-régions, RPO/RTO, reprise d'activité)</li>
+                            <li data-i18n="exp.upcoop2.item6">Monitoring & alerting avec Azure Monitor, Application Insights, Log Analytics (KQL)</li>
+                            <li data-i18n="exp.upcoop2.item7">Référent FinOps : optimisation des coûts, dimensionnement, gouvernance budgétaire des environnements</li>
                         </ul>
                         <div class="timeline-tech">
                             <span>C#</span>
@@ -585,12 +597,15 @@
                         </div>
                         <h3 data-i18n="exp.deloitte.title">Projet TRex - Consultant .NET Senior & Architecte</h3>
                         <p class="timeline-desc" data-i18n="exp.deloitte.desc">
-                            Solution de gestion et d'édition des déclarations fiscales pour TAJ.
+                            Participation à la conception et au développement de TRex, une solution interne de gestion et d'édition des déclarations fiscales des clients grands comptes de TAJ (filiale de Deloitte).
                         </p>
                         <ul class="timeline-list">
-                            <li data-i18n="exp.deloitte.item1">Architecture microservices Azure Service Fabric</li>
-                            <li data-i18n="exp.deloitte.item2">Backend ASP.NET / WebAPI</li>
-                            <li data-i18n="exp.deloitte.item3">Frontend WPF / XAML</li>
+                            <li data-i18n="exp.deloitte.item1">Définition de l'architecture microservices déployée sur Azure Service Fabric avec orchestration distribuée</li>
+                            <li data-i18n="exp.deloitte.item2">Développement du backend applicatif en ASP.NET / WebAPI, structuré en services métier indépendants</li>
+                            <li data-i18n="exp.deloitte.item3">Communication interservices via Azure Service Bus avec gestion des messages métiers</li>
+                            <li data-i18n="exp.deloitte.item4">Contribution au noyau applicatif (services transverses, gestion des sessions, logique de validation fiscale)</li>
+                            <li data-i18n="exp.deloitte.item5">Développement du frontend desktop en WPF avec XAML, incluant des interfaces complexes orientées métier</li>
+                            <li data-i18n="exp.deloitte.item6">Intégration de Azure Active Directory pour la gestion des accès et des identités</li>
                         </ul>
                         <div class="timeline-tech">
                             <span>Service Fabric</span>
@@ -618,8 +633,14 @@
                         </div>
                         <h3>SoLuxe - Tech Lead .NET</h3>
                         <p class="timeline-desc" data-i18n="exp.loreal.desc">
-                            Refonte de l'application mobile pour les commerciaux de la division Luxe.
+                            Refonte complète de SoLuxe, une application mobile métier destinée aux commerciaux de la division Luxe pour la prise de commande et le suivi des ventes sur le terrain.
                         </p>
+                        <ul class="timeline-list">
+                            <li data-i18n="exp.loreal.item1">Analyse de l'existant et refonte de l'architecture applicative</li>
+                            <li data-i18n="exp.loreal.item2">Conception et développement d'une Windows Store App moderne en XAML / C# avec pattern MVVM</li>
+                            <li data-i18n="exp.loreal.item3">Mise en œuvre de la synchronisation offline/online avec SQLite et composants SyncFusion</li>
+                            <li data-i18n="exp.loreal.item4">Conseils sur les pratiques de continuous integration et configuration de la chaîne de build avec TFS</li>
+                        </ul>
                         <div class="timeline-tech">
                             <span>.NET 4.5</span>
                             <span>C#</span>
@@ -649,8 +670,15 @@
                         </div>
                         <h3>Core Banking - Tech Lead .NET</h3>
                         <p class="timeline-desc" data-i18n="exp.agb.desc">
-                            Refonte du Core Banking System en partenariat avec Microsoft Consulting Services.
+                            Participation à la refonte complète du Core Banking System d'une grande banque privée, en partenariat avec Microsoft Consulting Services.
                         </p>
+                        <ul class="timeline-list">
+                            <li data-i18n="exp.agb.item1">Conception et implémentation de l'infrastructure applicative avec Windows Store App, Prism et pattern MVVM</li>
+                            <li data-i18n="exp.agb.item2">Développement du noyau métier bancaire (gestion des opérations, comptes, produits) en collaboration avec Microsoft</li>
+                            <li data-i18n="exp.agb.item3">Réalisation d'interfaces riches et interactives en WPF / XAML pour les agents front et middle-office</li>
+                            <li data-i18n="exp.agb.item4">Intégration des Web API sécurisées, communication interservices via Service Bus, gestion des identités via ADFS</li>
+                            <li data-i18n="exp.agb.item5">Développement de composants modulaires avec MEF, instrumentation via Enterprise Library et traçabilité avec ETW</li>
+                        </ul>
                         <div class="timeline-tech">
                             <span>.NET 4.5</span>
                             <span>C#</span>
