@@ -807,8 +807,10 @@ img {
 .skill-icon.cloud { background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%); }
 .skill-icon.devops { background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%); }
 .skill-icon.data { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
-.skill-icon.dev { background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%); }
+.skill-icon.backend { background: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%); }
+.skill-icon.frontend { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
 .skill-icon.security { background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%); }
+.skill-icon.methods { background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%); }
 
 .skill-card h3 {
     font-size: 1.1rem;

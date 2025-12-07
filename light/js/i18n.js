@@ -47,8 +47,10 @@ const translations = {
         // Skills
         "skills.label": "Expertise",
         "skills.title": "Mes Compétences",
-        "skills.development": "Développement",
+        "skills.backend": "Backend",
+        "skills.frontend": "Frontend",
         "skills.security": "Sécurité & Observabilité",
+        "skills.methods": "Méthodologies",
         "skills.expertise": "Niveau d'expertise",
         "skills.cloud_arch": "Architecture Cloud & Solutions",
         "skills.data_eng": "Data Engineering & IA",
@@ -158,8 +160,10 @@ const translations = {
         // Skills
         "skills.label": "Expertise",
         "skills.title": "My Skills",
-        "skills.development": "Development",
+        "skills.backend": "Backend",
+        "skills.frontend": "Frontend",
         "skills.security": "Security & Observability",
+        "skills.methods": "Methodologies",
         "skills.expertise": "Expertise Level",
         "skills.cloud_arch": "Cloud & Solutions Architecture",
         "skills.data_eng": "Data Engineering & AI",
