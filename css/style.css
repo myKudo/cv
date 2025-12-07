@@ -497,17 +497,16 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 48px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
 .client-logo {
-    height: 36px;
-    min-width: 80px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.6;
+    opacity: 0.5;
     filter: grayscale(100%);
     transition: var(--transition-base);
 }
@@ -520,15 +519,8 @@ img {
 .client-logo img {
     height: 100%;
     width: auto;
-    max-width: 120px;
+    max-width: 140px;
     object-fit: contain;
-}
-
-.client-logo span {
-    font-family: var(--font-mono);
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--text-muted);
 }
 
 /* Text-based client logos */
