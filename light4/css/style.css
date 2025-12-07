@@ -1266,6 +1266,59 @@ img {
     resize: vertical;
 }
 
+/* Form validation states */
+.form-group input.invalid,
+.form-group textarea.invalid {
+    border-color: #ef4444;
+    background: rgba(239, 68, 68, 0.05);
+}
+
+.form-group input.invalid:focus,
+.form-group textarea.invalid:focus {
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+/* Success message */
+.form-success-message {
+    max-width: 700px;
+    margin: 0 auto 24px;
+    padding: 32px;
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+    border: 1px solid #10b981;
+    border-radius: var(--radius-xl);
+    text-align: center;
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.form-success-message i {
+    font-size: 3rem;
+    color: #10b981;
+    margin-bottom: 16px;
+}
+
+.form-success-message h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.form-success-message p {
+    color: var(--text-secondary);
+    font-size: 0.9375rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* ============================================
    Footer
    ============================================ */
