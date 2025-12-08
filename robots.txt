@@ -1,0 +1,7 @@
+# Robots.txt for djilalisahraoui.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://djilalisahraoui.com/sitemap.xml
