@@ -266,7 +266,17 @@ const translations = {
 // i18n Class
 class I18n {
     constructor() {
-        this.currentLang = localStorage.getItem('cv-lang') || 'fr';
+        // Check localStorage first, then detect browser language
+        const savedLang = localStorage.getItem('cv-lang');
+        if (savedLang) {
+            this.currentLang = savedLang;
+        } else {
+            // Detect browser language (e.g., 'fr-FR' -> 'fr', 'en-US' -> 'en')
+            const browserLang = navigator.language || navigator.userLanguage || 'fr';
+            const langCode = browserLang.split('-')[0].toLowerCase();
+            // Only use 'en' if browser is English, otherwise default to 'fr'
+            this.currentLang = langCode === 'en' ? 'en' : 'fr';
+        }
         this.init();
     }
 
