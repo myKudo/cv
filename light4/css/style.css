@@ -186,21 +186,27 @@ img {
     display: flex;
     background: var(--bg-secondary);
     border-radius: var(--radius-md);
-    padding: 4px;
+    padding: 3px;
     border: 1px solid var(--border-color);
+    height: 38px;
+    align-items: center;
 }
 
 .lang-btn {
     font-family: var(--font-mono);
     font-size: 0.75rem;
     font-weight: 600;
-    padding: 6px 12px;
+    padding: 6px 10px;
     border: none;
     background: transparent;
     color: var(--text-muted);
     cursor: pointer;
     border-radius: var(--radius-sm);
     transition: var(--transition-fast);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .lang-btn:hover {
@@ -215,8 +221,10 @@ img {
 .btn-nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 6px;
-    padding: 8px 16px;
+    padding: 0 16px;
+    height: 38px;
     background: var(--primary);
     color: var(--text-light);
     border-radius: var(--radius-md);

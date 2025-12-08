@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nEnrichir les expériences professionnelles avec détails complets du CV\n\n- Up Coop Head of Architecture: 8 points détaillés (veille technique, Data Mesh, DevSecOps, documentation)\n- Up Coop Solution Architect: 7 points (CQRS, ETL Databricks, résilience multi-régions, monitoring KQL)\n- Deloitte TRex: 6 points (Service Fabric, Service Bus, Azure AD)\n- L''Oréal SoLuxe: 4 points (MVVM, sync offline/online)\n- AGB Core Banking: 5 points (MEF, ETW, ADFS)\n- Ajout des logos clients locaux (upcoop, microsoft, adecco, deloitte, loreal, foncia, vinci)\n- Traductions FR/EN synchronisées pour toutes les expériences\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/myKudo/cv/pages -X POST -F source[branch]=master -F source[path]=/light4)",
+      "Bash(git subtree push:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" api repos/myKudo/cv/pages -X POST -F source[branch]=gh-pages -F source[path]=/)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
