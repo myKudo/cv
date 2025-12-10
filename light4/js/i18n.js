@@ -274,8 +274,8 @@ class I18n {
             // Detect browser language (e.g., 'fr-FR' -> 'fr', 'en-US' -> 'en')
             const browserLang = navigator.language || navigator.userLanguage || 'en';
             const langCode = browserLang.split('-')[0].toLowerCase();
-            // Only use 'fr' if browser is French, otherwise default to 'en'
-            this.currentLang = langCode === 'fr' ? 'fr' : 'en';
+            // Default to English
+            this.currentLang = 'en';
         }
         this.init();
     }
@@ -324,6 +324,16 @@ class I18n {
             en: 'Djilali SAHRAOUI - Solution Architect / Data Architect'
         };
         document.title = titles[lang];
+
+        // Update CV download link based on language
+        const cvDownload = document.getElementById('cv-download');
+        if (cvDownload) {
+            const cvFiles = {
+                fr: 'CV Djilali SAHRAOUI.pdf',
+                en: 'CV Djilali SAHRAOUI EN.pdf'
+            };
+            cvDownload.href = cvFiles[lang];
+        }
     }
 
     getTranslation(key) {
